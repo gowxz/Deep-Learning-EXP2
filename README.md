@@ -13,8 +13,6 @@ You are required to help the manager to predict the right group of the new custo
 
 ## NEURAL NETWORK MODEL:
 <img width="994" height="742" alt="Screenshot 2025-09-09 092041" src="https://github.com/user-attachments/assets/50bbd56d-812e-47c7-bd64-08b5fb6dae33" />
-
-
 ## DESIGN STEPS
 1. Import necessary libraries.
 2. Load the dataset "customers.csv"
@@ -183,25 +181,17 @@ print(x_single_prediction)
 print(le.inverse_transform(x_single_prediction))
 
 ```
-
 ## Dataset Information:
 <img width="1077" height="301" alt="Screenshot 2025-09-09 092052" src="https://github.com/user-attachments/assets/8cd40c9e-8378-4cbe-9c61-0937ae8137b0" />
-
-
-
 ## OUTPUT:
 ### Training Loss, Validation Loss Vs Iteration Plot:
 <img width="956" height="682" alt="Screenshot 2025-09-09 092105" src="https://github.com/user-attachments/assets/a30d13e6-5ee5-40c3-8072-f41b06655c0a" />
-
 ### Classification Report:
 <img width="765" height="311" alt="Screenshot 2025-09-09 092112" src="https://github.com/user-attachments/assets/1008b098-2aab-4ae9-9764-534c0164122d" />
-
 ### Confusion Matrix:
 <img width="384" height="135" alt="Screenshot 2025-09-09 092116" src="https://github.com/user-attachments/assets/3e71d573-0e74-45ba-b7f1-f3699b922fe8" />
-
 ### New Sample Data Prediction:
 <img width="1034" height="403" alt="Screenshot 2025-09-09 092123" src="https://github.com/user-attachments/assets/a7879888-60fb-49c1-9c96-ee02b56f34ce" />
-
 
 ## RESULT:
 Thus a neural network classification model is developed for the given dataset.
